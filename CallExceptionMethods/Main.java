@@ -8,7 +8,7 @@ public class Main {
         } catch (Exception e) {
             System.err.println("Caught Exception"); // 捕获到异常并打印提示信息
             System.err.println("getLocalizedMessage(): " + e.getLocalizedMessage()); // 打印异常的本地化信息
-            e.printStackTrace(); // 打印异常的堆栈跟踪信息
+            e.printStackTrace(); // 打印异常的堆栈跟踪信息 
         }
     }
 }
